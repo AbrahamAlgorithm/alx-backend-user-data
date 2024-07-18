@@ -1,6 +1,7 @@
-from sqlalchemy import Column, Integer, String, create_engine
+#!/usr/bin/env python3
+"Declaring the user model"
+from sqlalchemy import Column, Integer, String
 from sqlalchemy.ext.declarative import declarative_base
-from sqlalchemy.orm import sessionmaker
 
 Base = declarative_base()
 
